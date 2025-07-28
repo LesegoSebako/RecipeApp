@@ -1,4 +1,8 @@
+// Name: Lesego Sebako
+// Student Number: ST10493865
+
 package com.example.recipeapp
+
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
