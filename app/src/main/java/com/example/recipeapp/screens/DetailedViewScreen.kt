@@ -11,7 +11,7 @@ import com.example.recipeapp.navigation.RecipeData
 @Composable
 fun DetailedViewScreen(navController: NavController) {
     Column(modifier = Modifier.padding(16.dp).padding(top = 70.dp)) {
-        Text("Music Library", style = MaterialTheme.typography.titleLarge)
+        Text("Recipe Book", style = MaterialTheme.typography.titleLarge)
 
         for (i in RecipeData.RecipeTitle.indices) {
             Text("${RecipeData.RecipeTitle[i]} (${RecipeData.RecipeTitle[i]}): ${RecipeData.Rating[i]} - ${RecipeData.Ingredients[i]}")

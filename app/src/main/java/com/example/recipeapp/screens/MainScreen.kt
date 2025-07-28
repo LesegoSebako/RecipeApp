@@ -1,7 +1,7 @@
 // Name: Lesego Sebako
 // Student Number: ST10493865
 
-package com.example.receipeapp.screens
+package com.example.recipeapp.screens
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -89,7 +89,7 @@ fun MainScreen(navController: NavHostController) {
         Spacer(modifier = Modifier.height(12.dp))
 
         Button(onClick = { navController.navigate("list") }) {
-            Text("View Recipe's")
+            Text("View Recipes")
         }
 
         Spacer(modifier = Modifier.height(12.dp))
